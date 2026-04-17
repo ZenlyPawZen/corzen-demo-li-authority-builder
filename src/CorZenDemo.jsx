@@ -32,8 +32,8 @@ const steps = [
     image: '/images/step4.png',
     altText: 'Completed LinkedIn Authority Builder output with content pillars and calendar',
     title: 'Step 3',
-    description: 'Receive content pillars with\n• format mix (text posts, carousels, videos)\n• 4-week content calendar\n• 5 initial starter post hooks\n• Engagement plan.',
-    hotspot: { top: '40%', left: '50%', align: 'center', cardWidth: '350px' },
+    description: 'Receive content pillars with\n• Format mix (text posts, carousels, videos)\n• 4-week content calendar\n• 5 initial starter post hooks\n• Engagement plan.',
+    hotspot: { top: '40%', left: '50%', align: 'center', cardWidth: '400px' },
   },
 ];
 
