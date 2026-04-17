@@ -17,7 +17,7 @@ const steps = [
     altText: 'LinkedIn Authority Builder task detail modal showing description and Run agent button',
     title: 'Step 1',
     description: 'Develop a full content strategy using your voice and unique perspective.',
-    hotspot: { top: '50%', left: '50%', align: 'center' },
+    hotspot: { top: '30%', left: '50%', align: 'center' },
   },
   {
     slug: 'agents/li-authority-builder/running',
@@ -25,7 +25,7 @@ const steps = [
     altText: 'LinkedIn Authority Builder agent running autonomously',
     title: 'Step 2',
     description: 'Save months of trial and error figuring out what your audience needs from you.',
-    hotspot: { top: '50%', left: '50%', align: 'center' },
+    hotspot: { top: '30%', left: '50%', align: 'center' },
   },
   {
     slug: 'agents/li-authority-builder/output',
@@ -33,7 +33,7 @@ const steps = [
     altText: 'Completed LinkedIn Authority Builder output with content pillars and calendar',
     title: 'Step 3',
     description: 'Receive content pillars with\n• format mix (text posts, carousels, videos)\n• 4-week content calendar\n• 5 initial starter post hooks\n• Engagement plan.',
-    hotspot: { top: '50%', left: '50%', align: 'center' },
+    hotspot: { top: '40%', left: '50%', align: 'center', cardWidth: '300px' },
   },
 ];
 
