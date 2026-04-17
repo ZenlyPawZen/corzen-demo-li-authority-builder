@@ -33,7 +33,7 @@ const steps = [
     altText: 'Completed LinkedIn Authority Builder output with content pillars and calendar',
     title: 'Step 3',
     description: 'Receive content pillars with\n• format mix (text posts, carousels, videos)\n• 4-week content calendar\n• 5 initial starter post hooks\n• Engagement plan.',
-    hotspot: { top: '40%', left: '50%', align: 'center', cardWidth: '300px' },
+    hotspot: { top: '40%', left: '50%', align: 'center', cardWidth: '350px' },
   },
 ];
 
@@ -77,7 +77,7 @@ const IntroCallout = ({ step, onNext }) => (
       <h2 style={{ fontSize: '18px', fontWeight: 700, color: '#0f172a', margin: '0 0 10px' }}>
         {step.title}
       </h2>
-      <p style={{ fontSize: '14px', lineHeight: '1.6', color: '#0f172a', margin: '0 0 20px' }}>
+      <p style={{ fontSize: '16px', lineHeight: '1.6', color: '#0f172a', margin: '0 0 20px' }}>
         {step.description}
       </p>
       <div style={{ borderTop: '1px solid #93c5fd', paddingTop: '16px' }}>
@@ -134,7 +134,7 @@ const Callout = ({ step, onBack, onNext, onRestart, isFirst, isLast }) => {
           width: cardWidth, pointerEvents: 'auto',
         }}
       >
-        <p style={{ fontSize: '14px', lineHeight: '1.5', color: '#0f172a', margin: 0, whiteSpace: 'pre-line' }}>
+        <p style={{ fontSize: '16px', lineHeight: '1.5', color: '#0f172a', margin: 0, whiteSpace: 'pre-line' }}>
           {step.description}
         </p>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #93c5fd' }}>
